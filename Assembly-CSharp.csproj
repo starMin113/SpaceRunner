@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B4A41969-C081-CC1F-2E8C-DB7883ED4AD2}</ProjectGuid>
+    <ProjectGuid>{9FD054C6-C0D9-31C3-819A-2D3FE927D106}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,7 +61,18 @@
     <Analyzer Include="F:\UnityEditor\2023.2.20f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\UI.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Charactor\SpaceShipCotroller.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Level\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\VFX\TrailEffectController.cs" />
+    <Compile Include="Assets\Scripts\Utils\DebugUtil.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Track\ArcTrackManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Level\FractalGalaxyMap.cs" />
+    <Compile Include="Assets\Scripts\Core\SingleTon\AbstractSingleton.cs" />
+    <Compile Include="Assets\Scripts\Utils\Coroutines.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Track\Track.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
