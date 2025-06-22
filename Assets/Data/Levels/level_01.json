@@ -1,0 +1,14 @@
+{
+  "galaxy": "SolarSystem",
+  "tracks": [
+    {"radius": 48.0, "color": "#00bfff"},
+    {"radius": 52.0, "color": "#ff6f00"}
+  ],
+  "obstacles": [
+    {"trackIdx": 1, "degree": 45, "type": "Asteroid"},
+    {"trackIdx": 0, "degree": 80, "type": "SpaceStationDebris"}
+  ],
+  "energyItems": [
+    {"trackIdx": 1, "degree": 20}
+  ]
+}
