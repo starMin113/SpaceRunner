@@ -1,8 +1,5 @@
-﻿
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-
 public class LevelManager : MonoBehaviour
 {
     public FractalGalaxyMap GalaxyMap;          // 星系结构数据
