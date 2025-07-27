@@ -1,4 +1,4 @@
-﻿
+﻿/*
 using DG.Tweening;
 using System.Collections;
 using UnityEngine;
@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-/*    EMovementType m_MovementType = EMovementType.Idle;
+*//*    EMovementType m_MovementType = EMovementType.Idle;
     public static PlayerController Instance => s_Instance;
     static PlayerController s_Instance;
 
@@ -139,8 +139,9 @@ public class PlayerController : MonoBehaviour
         guiStyle.normal.textColor = Color.white;
 
         GUI.Label(new Rect(20, 30, 200, 20), "CurrentRadius:" + CalcRadius(), guiStyle);
-    }*/
+    }*//*
 
 
 }
 
+*/
